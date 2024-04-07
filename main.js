@@ -237,16 +237,19 @@ function onMouseUp(event) {
     cursor_connection = null;
 }
 
-// function handleNewNode(event) {
-//    let new_node = new Node(add_new_element_text.value);
-//    nodes.push(new_node);
-// }
-//
-// add_new_element_text = document.getElementById("value-add-new-equation");
-// add_new_element_button = document.getElementById("add-new-equation");
-// add_new_element_button.addEventListener("click", handleNewNode);
+if (typeof variable !== 'undefined') {
+    module.exports = Dot;
 
-module.exports = Dot;
+} else {
+    function handleNewNode(event) {
+       let new_node = new Node(add_new_element_text.value);
+       nodes.push(new_node);
+    }
+
+    add_new_element_text = document.getElementById("value-add-new-equation");
+    add_new_element_button = document.getElementById("add-new-equation");
+    add_new_element_button.addEventListener("click", handleNewNode);
+}
 
 document.addEventListener('mousedown', onMouseDown);
 document.addEventListener('mousemove', onMouseMove);
