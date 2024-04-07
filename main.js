@@ -237,7 +237,7 @@ function onMouseUp(event) {
     cursor_connection = null;
 }
 
-if (typeof variable !== 'undefined') {
+if (typeof module !== 'undefined') {
     module.exports = Dot;
 
 } else {

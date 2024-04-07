@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[transfer]
+	bundleURI = true
+[http "https://gitlab.pg.innopolis.university"]
+	sslCAInfo = /home/ropero/code/tree-drawer/builds/iEH2oVUks/0/r.pogrebnyak/tree-drawer.tmp/CI_SERVER_TLS_CA_FILE
