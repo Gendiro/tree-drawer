@@ -237,14 +237,16 @@ function onMouseUp(event) {
     cursor_connection = null;
 }
 
-function handleNewNode(event) {
-   let new_node = new Node(add_new_element_text.value);
-   nodes.push(new_node);
-}
+// function handleNewNode(event) {
+//    let new_node = new Node(add_new_element_text.value);
+//    nodes.push(new_node);
+// }
+//
+// add_new_element_text = document.getElementById("value-add-new-equation");
+// add_new_element_button = document.getElementById("add-new-equation");
+// add_new_element_button.addEventListener("click", handleNewNode);
 
-add_new_element_text = document.getElementById("value-add-new-equation");
-add_new_element_button = document.getElementById("add-new-equation");
-add_new_element_button.addEventListener("click", handleNewNode);
+module.exports = Dot;
 
 document.addEventListener('mousedown', onMouseDown);
 document.addEventListener('mousemove', onMouseMove);
