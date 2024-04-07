@@ -17,6 +17,8 @@ build:
     - docker:dind # Enable Docker service inside the Docker container
   script:
     - docker build -t tree-drawer . # Build Docker image
+    - docker tag tree-drawer:latest gendiro/tree-drawer # Tag Docker image
+    - docker push gendiro/tree-drawer # Push Docker image to registry
 
 deploy:
   stage: deploy
@@ -25,3 +27,4 @@ deploy:
     - docker:dind # Enable Docker service inside the Docker container
   script:
     - docker run -d -p 80:80 --name tree-drawer-container tree-drawer:latest # Run Docker container
+
