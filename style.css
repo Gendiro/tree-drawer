@@ -1,0 +1,27 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    user-select: none;
+}
+
+.connection {
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    transform-origin: top center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+}
