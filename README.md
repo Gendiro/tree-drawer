@@ -1,7 +1,7 @@
 # :evergreen_tree: Tree drawer
 
 Small drawer that allows to represent game theory tree from tasks 19-21 of
-ege (informatics). It's purpose is to be
+ege (informatics). It's purpose is to be an educational example for student preparing for exams.
 
 <p align="center">
 <img src="https://i.imgur.com/OWeOekE.png" alt="example 1" style="width: 49%;">
