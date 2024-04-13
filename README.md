@@ -3,8 +3,8 @@
 Small drawer that allows to represent game theory tree from tasks 19-21 of
 ege (informatics). It's purpose is to be
 
-<img src="https://i.imgur.com/OWeOekE.png" alt="example 1" style="width: 49%;">
-<img src="https://i.imgur.com/6mvgA7V.png" alt="example 2" style="width: 49%;">
+<img src="https://i.imgur.com/OWeOekE.png" alt="example 1" style="width: 45%;">
+<img src="https://i.imgur.com/6mvgA7V.png" alt="example 2" style="width: 45%;">
 
 ## :fire: Functionality
 
