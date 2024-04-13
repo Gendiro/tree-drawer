@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<label>
-    <input id="value-add-new-equation"/>
-</label>
-<button id="add-new-equation">Add new equation</button>
-<script src = "main.js"></script>
+    <div id = "settings">
+        <label>
+            <input id="value-add-new-equation" type="text"/>
+        </label>
+        <button id="add-new-equation">Add new node</button>
+        <label>
+            Recursion depth:
+            <input id="value-recursion-depth" type="number" />
+        </label>
+        <label>
+            Starting number:
+            <input id="value-start-num" type="number" />
+        </label>
+        <label>
+            Goal number:
+            <input id="value-goal-num" type="number" />
+        </label>
+        <br />
+        <br />
+        <div id="operations">
+            <button id="add-new-operation">Add new operation</button>
+            <div id = "new-op-explanations"><div>Condition</div><div>Operation</div></div>
+        </div>
+        <br />
+        <button id = "mode">Increasing</button>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
